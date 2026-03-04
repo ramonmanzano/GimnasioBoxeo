@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manzano Boxing - Clases</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="imagenes/logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">Manzano Boxing</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Clases</a></li>
+                <li><a href="contacto.html">Apuntarse</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Tipos de Clases</h1>
+        <p>Aquí puedes ver lo que hacemos y los horarios de la semana.</p>
+
+        <div id="lista-servicios" class="grid-servicios">
+            <p>Cargando entrenamientos...</p>
+        </div>
+
+        <section style="margin-top: 50px;">
+            <h2>Horarios de Clases</h2>
+            <table class="tabla-horarios">
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10:00</td>
+                        <td>Boxeo Fitness</td>
+                        <td>Competición</td>
+                        <td>Boxeo Fitness</td>
+                        <td>Competición</td>
+                        <td>Tecnificación</td>
+                    </tr>
+                    <tr>
+                        <td>18:00</td>
+                        <td>Competición</td>
+                        <td>Boxeo Fitness</td>
+                        <td>Competición</td>
+                        <td>Boxeo Fitness</td>
+                        <td>Sparring</td>
+                    </tr>
+                    <tr>
+                        <td>20:00</td>
+                        <td>Boxeo Fitness</td>
+                        <td>Competición</td>
+                        <td>Boxeo Fitness</td>
+                        <td>Competición</td>
+                        <td>Saco libre</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section style="margin-top: 60px;">
+            <h2>Nuestros Entrenadores</h2>
+            <div class="entrenadores-container">
+                <div class="entrenador-card">
+                    <img src="imagenes/entrenadorJose.png" alt="Jose" class="foto-entrenador">
+                    <h3>Jose</h3>
+                    <p>Especialista en técnica y defensa.</p>
+                    <video class="video-entreno" autoplay loop muted playsinline>
+                        <source src="videos/galgodemo.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="entrenador-card">
+                    <img src="imagenes/entrenadorRafa.jpg" alt="Rafa" class="foto-entrenador">
+                    <h3>Rafa</h3>
+                    <p>Maestro del cardio y la pegada.</p>
+                    <video class="video-entreno" autoplay loop muted playsinline>
+                        <source src="videos/rafademo.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="entrenador-card">
+                    <img src="imagenes/entrenadorRamon.png" alt="Ramon" class="foto-entrenador">
+                    <h3>Ramon</h3>
+                    <p>Director técnico y estratega.</p>
+                    <video class="video-entreno" autoplay loop muted playsinline>
+                        <source src="videos/ramondemo1.mp4" type="video/mp4">
+                    </video>
+                    <video class="video-entreno" autoplay loop muted playsinline>
+                        <source src="videos/ramondemo2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Manzano Boxing Club - Proyecto Luis DAW</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
