@@ -3,18 +3,15 @@
         "id": 1,
         "titulo": "Boxeo Online",
         "descripcion": "Entrena desde cualquier lugar con nuestras clases en directo y vídeos bajo demanda.",
-        "imagen": "https://images.unsplash.com/photo-1594444383442-12348580798e?auto=format&fit=crop&q=80&w=300&h=200"
     },
     {
         "id": 2,
         "titulo": "Boxeo Competición",
         "descripcion": "Preparación técnica y física de alto nivel para subir al ring. Sparring controlado y estrategia.",
-        "imagen": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&q=80&w=300&h=200"
     },
     {
         "id": 3,
         "titulo": "Boxeo Fitness",
         "descripcion": "Quema calorías y mejora tu forma física golpeando el saco sin contacto directo.",
-        "imagen": "https://images.unsplash.com/photo-1517438476312-10d79c67750d?auto=format&fit=crop&q=80&w=300&h=200"
     }
 ]
